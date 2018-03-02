@@ -45,6 +45,7 @@ public class ScannerActivity extends AppCompatActivity implements OnScannerCompl
 
         mScannerView.setMediaResId(R.raw.weixin_beep);//设置扫描成功的声音
         mScannerView.setDrawText("将二维码放入框内", true);
+      //  mScannerView.setLaserFrameBoundColor(R.color.base_color);
 
         if (scanMode == 1) {
             //二维码
@@ -71,7 +72,7 @@ public class ScannerActivity extends AppCompatActivity implements OnScannerCompl
 
         switch (laserMode) {
             case EXTRA_LASER_LINE_MODE_0:
-                mScannerView.setLaserLineResId(R.drawable.wx_scan_line);//线图
+                mScannerView.setLaserLineResId(R.drawable.scan_line);//线图
                 break;
             case EXTRA_LASER_LINE_MODE_1:
                 mScannerView.setLaserGridLineResId(R.drawable.zfb_grid_scan_line);//网格图
