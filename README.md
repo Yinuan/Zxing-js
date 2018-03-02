@@ -1,7 +1,8 @@
 # Zxing-js
 二维码扫码工具
     
-    1.使用
+   1.使用
+   
     project中的build
     	allprojects {
 		repositories {
