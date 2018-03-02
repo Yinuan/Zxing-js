@@ -4,12 +4,12 @@
    1.使用
    
     project中的build
-      allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
+    	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
 	}
-      }
 
   2.导入 
   
