@@ -36,8 +36,11 @@ public final class DecodeFormatManager {
                 BarcodeFormat.CODE_128,
                 BarcodeFormat.ITF,
                 BarcodeFormat.CODABAR);
-        ONE_D_FORMATS = EnumSet.copyOf(PRODUCT_FORMATS);
-        ONE_D_FORMATS.addAll(INDUSTRIAL_FORMATS);
+        //ONE_D_FORMATS = EnumSet.copyOf(PRODUCT_FORMATS);
+       // ONE_D_FORMATS.addAll(INDUSTRIAL_FORMATS);
+        ONE_D_FORMATS = EnumSet.of(BarcodeFormat.CODE_128);
+
+       // QR_CODE_FORMATS = EnumSet.of(BarcodeFormat.QR_CODE);
     }
 
     private static final Map<String, Set<BarcodeFormat>> FORMATS_FOR_MODE;

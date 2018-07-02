@@ -94,6 +94,7 @@ final class DecodeHandler extends Handler {
             data = rotatedData;
         }
         Result rawResult = null;
+
         PlanarYUVLuminanceSource source = cameraManager.buildLuminanceSource(data, width, height);
         if (source != null) {
             BinaryBitmap bitmap = new BinaryBitmap(new GlobalHistogramBinarizer(source));

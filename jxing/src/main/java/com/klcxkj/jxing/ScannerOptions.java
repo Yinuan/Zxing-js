@@ -55,7 +55,7 @@ public final class ScannerOptions {
     private int frameTopMargin;//扫描框与顶部间距，单位dp，默认居中
     private boolean frameHide;//是否隐藏扫描框，默认显示
     private boolean viewfinderHide;//是否隐藏整个取景视图，包括文字，默认显示
-    private String tipText = "将二维码放入框内，即可自动扫描";//提示文字
+    private String tipText = "";//提示文字  将二维码放入框内，即可自动扫描
     private int tipTextColor = Color.WHITE;//提示文字颜色rgb值，默认白色
     private int tipTextSize = 15;//提交文字大小，单位sp 默认15
     private boolean tipTextToFrameTop;//是否在扫描框上方，默认下方

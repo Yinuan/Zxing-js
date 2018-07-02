@@ -62,7 +62,7 @@ public final class DecodeThread extends Thread {
 
             decodeFormats = EnumSet.noneOf(BarcodeFormat.class);
             // 一维码：商品
-            boolean decode1DProduct = true;
+          /*  boolean decode1DProduct = true;
             if (decode1DProduct) {
                 decodeFormats.addAll(DecodeFormatManager.PRODUCT_FORMATS);
             }
@@ -70,7 +70,7 @@ public final class DecodeThread extends Thread {
             boolean decode1DIndustrial = true;
             if (decode1DIndustrial) {
                 decodeFormats.addAll(DecodeFormatManager.INDUSTRIAL_FORMATS);
-            }
+            }*/
             // 二维码
             boolean decodeQR = true;
             if (decodeQR) {
